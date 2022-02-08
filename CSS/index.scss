@@ -1,0 +1,7 @@
+[data-aos="moveUp"] {
+    transform: rotate(360deg);
+    transition-property: transform;
+    &.aos-animate {
+        transform: rotate(0);
+    }
+}
